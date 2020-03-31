@@ -6,40 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>My host website</title>
-
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon shortcut" href="./image/icon/main_favicon.ico">
+    <title>BlackSakura3C</title>
+    <script type="text/javascript">
+        function search_hide() {
+            var search_icon = $('#search_icon');
+            if (window.innerWidth <= 991) {
+                search_icon.hide();
+            } else {
+                search_icon.show();
+            }
+            console.log(window.innerWidth);
+        };
+    </script>
 </head>
 
 <body>
-    <!-- <p>Hello World</p> -->
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="http://127.0.0.1:8080/image/icon/pan_tool-black-18dp.svg" width="30" height="30" alt="">
-            <span>&nbspBlackSakura3C</span>
-        </a>
-        <div id="nav-menu">
-            <form></form>
-            <a href="#">test</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </div>
-            </div>
-        </div>
 
-        <!-- <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">test</a>
-            <a href="#">test</a>
-            <a href="#">test</a>
-            <a href="#">test</a>
-        </div> -->
-    </nav>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="nav_left">
+                <a class="navbar-brand" href="#">
+                    <svg t="1585535228114" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2341" width="35" height="35"><path d="M512 512m-512 0a512 512 0 1 0 1024 0 512 512 0 1 0-1024 0Z" fill="#049BFF" p-id="2342"></path><path d="M540.49792 329.91232c90.299733 131.556693 211.776853 244.401493 364.424533 338.5344a1584.19968 1584.19968 0 0 0 77.912747 44.987733C904.618667 896.06144 723.2512 1024 512 1024c-217.623893 0-403.534507-135.775573-477.648213-327.236267 15.530667-9.260373 30.788267-18.69824 45.779626-28.317013 146.705067-94.12608 268.038827-205.585067 363.997867-334.373547l3.085653-4.164266h93.282987z" fill="#0C28F8" p-id="2343"></path><path d="M540.49792 329.91232c84.841813 123.603627 197.20192 230.690133 337.08032 321.25952l-138.397013-81.701547-9.270614 11.625814-21.930666-18.40128v31.604053l-74.00448-63.208107 46.226773 122.361174-134.485333-107.400534v-37.311146L445.41952 585.386667l-13.410987-27.14624-35.2256 86.30272-9.485653-81.84832h-19.17952v-31.604054L300.7488 594.29888v-36.058453L226.747733 585.386667v-23.709014c84.401493-69.802667 157.89056-147.05664 220.4672-231.765333z" fill="#F9F9F9" p-id="2344"></path><path d="M734.805333 50.8928c105.5232 51.080533 190.85312 137.314987 240.779947 243.490133C945.384107 350.7712 885.917013 389.12 817.493333 389.12c-98.9696 0-179.2-80.2304-179.2-179.2 0-68.29056 38.1952-127.658667 94.39232-157.9008l2.11968-1.1264z" fill="#EA736A" p-id="2345"></path><path d="M884.053333 211.626667c22.41536 0 41.6768 13.503147 50.090667 32.815786a44.530347 44.530347 0 0 1 7.9872-10.267306 509.467307 509.467307 0 0 1 31.429973 55.954773l-38.157653 0.006827a44.537173 44.537173 0 0 1-1.262933-2.0992c-0.3072 0.70656-0.631467 1.406293-0.965974 2.095786h-161.723733c-0.023893-0.5632-0.037547-1.133227-0.037547-1.706666 0-21.67808 17.575253-39.253333 39.253334-39.253334 7.307947 0 14.148267 1.9968 20.00896 5.474987C835.986773 230.055253 857.86624 211.626667 884.053333 211.626667z" fill="#F9F9F9" p-id="2346" ></path></svg>
+                    <span style="font-weight: 500;font-size: 23px;">&nbspBlackSakura3C</span>
+                </a>
+            </div>
+            <div>
+                <a class="navbar-toggler" type="button" href="#">
+                    <svg t="1585625131734" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7720" width="30" height="30"><path d="M914.758621 999.724138c-11.034483 0-22.068966-4.413793-30.896552-13.241379 0 0-108.137931-105.931034-183.172414-178.758621-17.655172-17.655172-17.655172-44.137931 0-61.793104 17.655172-17.655172 44.137931-17.655172 61.793104 0 72.827586 72.827586 180.965517 176.551724 180.965517 176.551725 17.655172 17.655172 17.655172 44.137931 2.206896 61.793103-8.827586 11.034483-19.862069 15.448276-30.896551 15.448276z" fill="#DE8B12" p-id="7721"></path><path d="M482.206897 909.241379c-242.758621 0-441.37931-198.62069-441.379311-441.37931s198.62069-441.37931 441.379311-441.37931 441.37931 198.62069 441.37931 441.37931-198.62069 441.37931-441.37931 441.37931z m0-794.482758c-194.206897 0-353.103448 158.896552-353.103449 353.103448s158.896552 353.103448 353.103449 353.103448 353.103448-158.896552 353.103448-353.103448-158.896552-353.103448-353.103448-353.103448z" fill="#4282C4" p-id="7722"></path></svg>
+                </a>
+                <button class="navbar-toggler nav_left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>  
+                </button>
+            </div>
+            <div class="nav_right" style="white-space: nowrap;">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: left;">
+                    <ul class="navbar-nav mr-auto" style="white-space: nowrap; ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">分享<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">记录</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    更多
+                                </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">日记</a>
+                                <a class="dropdown-item" href="#">私人网盘</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">预留</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+                </div>
+                <a class="navbar-brand" id="search_icon" style="padding-left: 10px;" href="#">
+                    <svg t="1585625131734" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7720" width="30" height="30"><path d="M914.758621 999.724138c-11.034483 0-22.068966-4.413793-30.896552-13.241379 0 0-108.137931-105.931034-183.172414-178.758621-17.655172-17.655172-17.655172-44.137931 0-61.793104 17.655172-17.655172 44.137931-17.655172 61.793104 0 72.827586 72.827586 180.965517 176.551724 180.965517 176.551725 17.655172 17.655172 17.655172 44.137931 2.206896 61.793103-8.827586 11.034483-19.862069 15.448276-30.896551 15.448276z" fill="#DE8B12" p-id="7721"></path><path d="M482.206897 909.241379c-242.758621 0-441.37931-198.62069-441.379311-441.37931s198.62069-441.37931 441.379311-441.37931 441.37931 198.62069 441.37931 441.37931-198.62069 441.37931-441.37931 441.37931z m0-794.482758c-194.206897 0-353.103448 158.896552-353.103449 353.103448s158.896552 353.103448 353.103449 353.103448 353.103448-158.896552 353.103448-353.103448-158.896552-353.103448-353.103448-353.103448z" fill="#4282C4" p-id="7722"></path></svg>
+                </a>
+                <script>
+                    function search_hide() {
+                        var search_icon = $('#search_icon');
+                        if (window.innerWidth <= 991) {
+                            search_icon.hide();
+                        } else {
+                            search_icon.show();
+                        }
+                    };
+                    window.onload = search_hide;
+                    window.onresize = search_hide;
+                </script>
+
+            </div>
+
+
+
+        </nav>
+    </div>
 
 
     <!-- Optional JavaScript -->
